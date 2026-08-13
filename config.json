@@ -1,0 +1,33 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 3501,
+    "keep-alive-timeout": 60
+  },
+  "database": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "username": "postgres",
+    "password": "Ani_Ram_22_12",
+    "database": "postgres"
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379
+  },
+  "nosql": {
+    "host": "127.0.0.1",
+    "port": 6379
+  },
+  "filesystem": {
+    "drivers": {
+      "local": {
+        "root": "./storage"
+      },
+      "root": {
+        "root": "./"
+      },
+      "default": "local"
+    }
+  }
+}
