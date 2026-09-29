@@ -4,8 +4,12 @@
 #pragma once
 
 #include <iostream>
-#include <lightlib/Core>
-#include <lightlib/DB>
-#include <lightlib/Http>
+#include <brazier/Core>
+#include <brazier/DB>
+#include <brazier/Http>
+#include <brazier/Engine.hpp>
+#include "../include/Database/Migrations/create_table_tests.hpp"
+#include "../include/Database/Migrations/create_table_questions.hpp"
+#include "../include/Database/Migrations/create_table_answers.hpp"
 
 // TODO: установите здесь ссылки на дополнительные заголовки, требующиеся для программы.
